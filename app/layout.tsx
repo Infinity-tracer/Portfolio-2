@@ -6,7 +6,7 @@ import { Providers } from './providers';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'SRIRAM VLUMURI PORTFOLIO',
+  title: 'SRIRAM VELUMURI PORTFOLIO',
   description: 'A showcase of my work, journey, and experiences',
 };
 
