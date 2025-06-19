@@ -22,10 +22,16 @@ export default function Home() {
               I&apos;m a 4th-semester BE student in AIML at RV College of Engineering, deeply engaged in exploring AI/ML. With a passion for innovation, I work on projects that challenge limits and drive impactful solutions. Fueled by curiosity, I aim to craft intelligent systems that make a difference.
             </p>
             <div className="flex gap-4 pt-4">
-              <Button size="lg">
-                <Download className="mr-2 h-4 w-4" />
-                Download Resume
-              </Button>
+              <a
+                href="https://drive.google.com/file/d/1t3I0LmZPlR3ZjnuhOs7A8TeLm0K5fHva/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="lg">
+                  <Download className="mr-2 h-4 w-4" />
+                  Download Resume
+                </Button>
+              </a>
               <Button size="lg" variant="outline">
                 <Mail className="mr-2 h-4 w-4" />
                 Contact Me
