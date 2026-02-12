@@ -67,8 +67,8 @@ export default function Journey() {
   return (
     <div className="min-h-screen bg-background">
       <NavBar />
-      <main className="container mx-auto px-6 py-12">
-        <h1 className="text-4xl font-bold tracking-tight mb-8">My Journey</h1>
+      <main className="container mx-auto px-4 sm:px-6 py-8 md:py-12">
+        <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-8">My Journey</h1>
 
         <Tabs defaultValue="education" className="space-y-6">
           <TabsList className="grid w-full grid-cols-2 lg:w-[400px]">

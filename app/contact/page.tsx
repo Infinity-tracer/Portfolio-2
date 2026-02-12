@@ -82,10 +82,10 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-background">
       <NavBar />
-      <main className="container mx-auto px-6 py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <main className="container mx-auto px-4 sm:px-6 py-8 md:py-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
           <div>
-            <h1 className="text-4xl font-bold tracking-tight mb-4">Get in Touch</h1>
+            <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">Get in Touch</h1>
             <p className="text-muted-foreground mb-8">
               I&apos;m always open to new opportunities and interesting projects.
               Feel free to reach out!

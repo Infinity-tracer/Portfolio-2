@@ -39,10 +39,10 @@ export default function Blog() {
   return (
     <div className="min-h-screen bg-background">
       <NavBar />
-      <main className="container mx-auto px-6 py-12">
+      <main className="container mx-auto px-4 sm:px-6 py-8 md:py-12">
         <div className="flex justify-between items-center mb-8">
           <div>
-            <h1 className="text-4xl font-bold tracking-tight">Blog</h1>
+            <h1 className="text-3xl md:text-4xl font-bold tracking-tight">Blog</h1>
             <p className="text-muted-foreground mt-2">
               Thoughts, tutorials, and insights about web development
             </p>

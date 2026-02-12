@@ -56,9 +56,9 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-background">
       <NavBar />
-      <main className="container mx-auto px-6 py-12">
-        <section className="space-y-6 mb-16">
-          <h1 className="text-4xl font-bold tracking-tight">About Me</h1>
+      <main className="container mx-auto px-4 sm:px-6 py-8 md:py-12">
+        <section className="space-y-4 md:space-y-6 mb-12 md:mb-16">
+          <h1 className="text-3xl md:text-4xl font-bold tracking-tight">About Me</h1>
           <p className="text-lg text-muted-foreground max-w-3xl">
             I&apos;m a passionate AI/ML enthusiast with over three years of hands-on experience in developing foundational ML applications. I thrive on building scalable, user-centric solutions that tackle real-world challenges while aligning with sustainability goals. Continuously exploring new frontiers in AI, I strive to create technology that makes a lasting impact.
           </p>
@@ -75,8 +75,8 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <section className="space-y-6 mb-16">
-          <h2 className="text-3xl font-bold tracking-tight">Skills</h2>
+        <section className="space-y-4 md:space-y-6 mb-12 md:mb-16">
+          <h2 className="text-2xl md:text-3xl font-bold tracking-tight">Skills</h2>
           <div className="grid gap-6">
             {skills.map((skill, index) => (
               <div key={index} className="space-y-2">
@@ -95,8 +95,8 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <section className="space-y-6">
-          <h2 className="text-3xl font-bold tracking-tight">Experience Timeline</h2>
+        <section className="space-y-4 md:space-y-6">
+          <h2 className="text-2xl md:text-3xl font-bold tracking-tight">Experience Timeline</h2>
           <div className="relative border-l border-primary/20 pl-6 ml-6">
             {experiences.map((exp, index) => (
               <div key={index} className="mb-10 relative">

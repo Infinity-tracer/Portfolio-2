@@ -205,10 +205,10 @@ export default function Projects() {
   return (
     <div className="min-h-screen bg-background">
       <NavBar />
-      <main className="container mx-auto px-6 py-12">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
+      <main className="container mx-auto px-4 sm:px-6 py-8 md:py-12">
+        <div className="flex flex-col gap-4 mb-8">
           <div>
-            <h1 className="text-4xl font-bold tracking-tight">Projects</h1>
+            <h1 className="text-3xl md:text-4xl font-bold tracking-tight">Projects</h1>
             <p className="text-muted-foreground mt-2">A collection of my recent work and side projects.</p>
           </div>
           <div className="flex flex-wrap gap-2">
