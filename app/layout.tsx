@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'SRIRAM VELUMURI PORTFOLIO',
   description: 'A showcase of my work, journey, and experiences',
+  verification: {
+    google: 'arsjd2PFiS4IxQ46AR3AJNi4mGx9u2V3gtvluwXnzEE',
+  },
 };
 
 export default function RootLayout({
