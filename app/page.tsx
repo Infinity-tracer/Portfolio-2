@@ -23,7 +23,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-4 items-center md:items-start">
               <a
-                href="https://drive.google.com/file/d/1t3I0LmZPlR3ZjnuhOs7A8TeLm0K5fHva/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1xDFluBLjDcEPSRJ6NBrfvYO8kRQv14iU/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto"
@@ -44,7 +44,7 @@ export default function Home() {
                   <Github className="h-5 w-5" />
                 </Button>
               </a>
-              <a href="https://www.linkedin.com/in/velumuri-sriramkumar-911306349/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/sriram-velumuri-911306349/" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon">
                   <Linkedin className="h-5 w-5" />
                 </Button>

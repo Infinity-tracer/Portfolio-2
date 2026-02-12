@@ -54,7 +54,7 @@ const socialLinks = [
   {
     icon: <Linkedin className="h-5 w-5" />,
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/feed/',
+    href: 'https://www.linkedin.com/in/sriram-velumuri-911306349/',
   },
   {
     icon: <Instagram className="h-5 w-5" />,
